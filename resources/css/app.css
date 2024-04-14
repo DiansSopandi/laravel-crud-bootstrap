@@ -1,0 +1,34 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+input[readonly] {
+    background-color: #f8f9fa; Light gray background
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    width: auto; 
+    outline: none; 
+}
